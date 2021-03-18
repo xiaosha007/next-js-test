@@ -2,15 +2,15 @@ import Footer from "./comps/Footer";
 import Navbar from "./comps/Navbar";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
-import Head from 'next/Head';
+// import Head from 'next/Head';
 
 export default function Home() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Ninja home</title>    
         <meta name="keywords" content="ninjas"/>
-      </Head>
+      </Head> */}
       <div>
         <h1 className={styles.title}>Homepage</h1>
         <p className={styles.text}>asdsadasdas</p>

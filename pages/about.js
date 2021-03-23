@@ -23,10 +23,9 @@ const About = () => {
   
   // const [BarCodeScanner, setBarCodeScanner] = useState(null);
     const [code, setCode] = useState('');
-    console.log("hello world")
         return (
             <>
-            { code && <p> code </p> }
+            { code && (<p> {code} </p>) }
             <DynamicBarCodeScanner onUpdate={ (err, resp) => {
                 if(resp) {
                     setCode(resp.getText())
